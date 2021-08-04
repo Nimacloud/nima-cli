@@ -2,7 +2,7 @@
 
 ## nima-cli
 
-nima-cli is a bash client that will help you working with the SF platform
+`nima-cli` is a bash client that will help you working with the SF platform
 
 ### ℹ️ Commands
 
