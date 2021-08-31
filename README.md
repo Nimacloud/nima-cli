@@ -13,7 +13,7 @@
 - Convert from mdapi to sfdx : `-c2dx | --convert-to-dx`
 - Convert from sfdx to mdapi : `-c2mdapi| --convert-to-mdapi`
 - Create username : `-cuser | --create-user`
-- Delete scrach org : `-dscaratchorg | --delete-scratchorg`
+- Delete scrach org : `-dscratchorg | --delete-scratchorg`
 - Login to org : `-login | --login-to-org`
 - Logout from org : `-logout | --logout-from-org`
 - Deploy package to org : `-dpkg | --deploy-package`
