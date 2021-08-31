@@ -98,10 +98,10 @@ case "$1" in
         sfdx force:user:display -u $USERNAME
         sfdx force:org:open -r -u $USERNAME
     ;;
-    -dscaratchorg|--delete-scratchorg)
+    -dscratchorg|--delete-scratchorg)
         if [ -z $2 ]
         then
-            echo "ℹ️    -dscaratchorg|--delete-scratchorg alias"
+            echo "ℹ️    -dscratchorg|--delete-scratchorg alias"
             exit
         fi
 
@@ -162,7 +162,7 @@ case "$1" in
         echo "ℹ️    Convert from mdapi to sfdx : -c2dx  |  --convert-to-dx " 
         echo "ℹ️    Convert from sfdx to mdapi :-c2mdapi| --convert-to-mdapi " 
         echo "ℹ️    Create username : -cuser  |  --create-user " 
-        echo "ℹ️    Delete scrach org : -dscaratchorg  |  --delete-scratchorg " 
+        echo "ℹ️    Delete scrach org : -dscratchorg  |  --delete-scratchorg " 
         echo "ℹ️    Login to org : -login  |  --login-to-org " 
         echo "ℹ️    Logout from org : -logout  |  --logout-from-org "
         echo "ℹ️    Deploy package to org : -dpkg  |  --deploy-package "
